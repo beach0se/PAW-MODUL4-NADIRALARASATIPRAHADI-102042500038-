@@ -22,6 +22,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
         // TODO 1: Tambahkan kolom 'role' pada properti $fillable
     ];
 
